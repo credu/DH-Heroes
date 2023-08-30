@@ -7,6 +7,11 @@
     font-family: "roboto";
 }
 
+/* General */
+button {
+    cursor: pointer;
+}
+
 /* Navbar */
 .header-main {
     background-color: #00669F;
@@ -144,13 +149,14 @@ nav {
     color: #333333;
 }
 
-.card-body > button {
+.card-body > a {
     padding: 15px 35px;
     background-color: #00669F;
     color: #ffffff;
     border: none;
     margin-top: 37px;
     margin-bottom: 18px;
+    text-decoration: none;
 }
 
 .card-button {
