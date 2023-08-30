@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    
+    <header class="header-main">
+        <p>20% de descuento en todos los productos</p>
+        <a href="./index.html" class="header-brand">
+            <img src="./assets/img/logo.png" alt="logo">
+            <h1>Nombre Tienda</h1>
+        </a>
+        <nav>
+            <ul class="nav-list">
+                <li class="nav-item"><a class="nav-link" href="./index.html">Inicio</a></li>
+                <li class="nav-item"><a class="nav-link" href="./register.html">Registrarme</a></li>
+                <li class="nav-item"><a class="nav-link" href="./login.html">Ingresar</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="container">
+            <form action="" class="form" autocomplete="off">
+                <header class="form-header">
+                    <h2>Añadí tu super!</h2>
+                    <p>Agregá tu personaje favorito completando las opciones.</p>
+                </header>
+
+                <div class="form-body">
+                    <fieldset class="d-flex-column">
+                        <div class="form-group">
+                            <label for="name">*Nombre</label>
+                            <input type="text" name="name" id="name">
+                        </div>
+                        <div class="form-group">
+                            <label for="date">Fecha</label>
+                            <input type="date" name="date" id="date">
+                        </div>
+                        <div class="form-group h-100">
+                            <textarea name="description" id="description" cols="30" rows="10" placeholder="Descripción" class="h-100"></textarea>
+                        </div>
+                    </fieldset>
+    
+                    <div>
+                        <fieldset>
+                            <div class="form-group">
+                                <label for="species">*Especie</label>
+                                <input type="text" name="species" id="species">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="image">Agregar Foto</label>
+                                <input type="file" name="image" id="image">
+                            </div>
+                        </fieldset>
+
+                        <fieldset>
+                            <legend>Poderes</legend>
+        
+                            <div class="form-group-check">
+                                <input type="checkbox" name="power" id="fly">
+                                <label for="fly">Volar</label>
+                            </div>
+                            <div class="form-group-check">
+                                <input type="checkbox" name="power" id="superintelligence">
+                                <label for="superintelligence">SuperInteligencia</label>
+                            </div>
+                            <div class="form-group-check">
+                                <input type="checkbox" name="power" id="xray">
+                                <label for="xray">Vista de rayo laser</label>
+                            </div>
+                            <div class="form-group-check">
+                                <input type="checkbox" name="power" id="money">
+                                <label for="money">Billetera gorda</label>
+                            </div>
+                        </fieldset>
+                        <hr>
+                        <fieldset>
+                            <legend>Poderes</legend>
+        
+                            <div class="form-group-check">
+                                <input type="radio" name="rol" id="hero" value="hero">
+                                <label for="hero">Héroe / Heroina</label>
+                            </div>
+                            <div class="form-group-check">
+                                <input type="radio" name="rol" id="villain" value="villain">
+                                <label for="villain">Villano / Villana</label>
+                            </div>
+                        </fieldset>
+                    </div>
+    
+                </div>
+                
+                <footer class="form-footer">
+                    <button>Añadir</button>
+                </footer>
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>Todos los derechos reservados a FRONT END 1</p>
+    </footer>
+</body>
+</html>
